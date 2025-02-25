@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruben Ligtenstein Karting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#results">Race Results</a></li>
+                <li><a href="#sponsors">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Ruben Ligtenstein Karting</h1>
+            <p>Join me on my journey to the top of the karting world!</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Ruben Ligtenstein has been karting since the age of 10...</p>
+    </section>
+
+    <section id="results">
+        <h2>Race Results</h2>
+        <div id="race-results">
+            <!-- Results will be populated dynamically -->
+        </div>
+    </section>
+
+    <section id="sponsors">
+        <h2>Support</h2>
+        <form id="support-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Contact Me</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
